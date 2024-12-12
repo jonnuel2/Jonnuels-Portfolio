@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon, IconifyIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 
 
 

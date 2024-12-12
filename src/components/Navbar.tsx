@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon, IconifyIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import Button from "./Button";
 import Logo from "../assets/Logo.png";
 
