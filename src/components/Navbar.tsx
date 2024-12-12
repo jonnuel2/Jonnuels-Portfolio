@@ -40,31 +40,47 @@ const Navbar = () => {
         {isModalOpen && (
           <div className="lg:hidden">
             <div className="fixed top-0 left-0 w-full h-full bg-black opacity-50"></div>
-            <div className=" bg-primary2 absolute top-0 right-0 w-[50%] h-[100vh] flex flex-col gap-16 items-left py-24 px-2">
+            <div className="bg-primary2 absolute top-0 right-0 w-[50%] h-[100vh] flex flex-col gap-16 items-left py-24 px-2">
               <button onClick={toggleModal} className="absolute top-4 right-4">
                 <Icon icon="mdi:close" width="24" height="24" />
               </button>
 
-              <ul className="flex flex-col gap-4 text-white text-lg ">
+              <ul className="flex flex-col gap-4 text-white text-lg">
                 <li className="flex items-center justify-between px-4">
-                  <a href="#about">About Me </a>
-                  <Icon icon="mdi-light:chevron-right" width="24" height="24" />
+                  <a href="#about" className="flex items-center justify-between w-full">
+                    About Me
+                    <Icon
+                      icon="mdi-light:chevron-right"
+                      width="24"
+                      height="24"
+                    />
+                  </a>
                 </li>
-                {/* divider */}
                 <div className="w-full h-[1px] bg-border"></div>
+
                 <li className="flex items-center justify-between px-4">
-                  <a href="#skills">Skills</a>
-                  <Icon icon="mdi-light:chevron-right" width="24" height="24" />
+                  <a href="#skills" className="flex items-center justify-between w-full">
+                    Skills
+                    <Icon
+                      icon="mdi-light:chevron-right"
+                      width="24"
+                      height="24"
+                    />
+                  </a>
                 </li>
-                {/* divider */}
                 <div className="w-full h-[1px] bg-border"></div>
+
                 <li className="flex items-center justify-between px-4">
-                  <a href="#live-projects">Live Projects</a>
-                  <Icon icon="mdi-light:chevron-right" width="24" height="24" />
+                  <a href="#live-projects" className="flex items-center justify-between w-full">
+                    Live Projects
+                    <Icon
+                      icon="mdi-light:chevron-right"
+                      width="24"
+                      height="24"
+                    />
+                  </a>
                 </li>
               </ul>
-
-              {/* button */}
 
               <button
                 onClick={() =>

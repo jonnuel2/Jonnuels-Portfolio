@@ -96,7 +96,7 @@ const Home = () => {
       {/* hero section  */}
       <div
         id="hero"
-        className="container flex flex-col md:flex-row items-center h-[70%] py-16"
+        className="container flex flex-col gap-6 md:flex-row items-center h-[70%] py-16"
       >
         <div className="flex flex-col items-center md:items-start gap-8 w-full md:w-[55%] order-2 md:order-1">
           <div>
