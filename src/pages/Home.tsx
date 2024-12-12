@@ -2,14 +2,14 @@ import Button from "../components/Button";
 import ProfileImg from "../assets/Profile-img.jpg";
 import Agripeller from "../assets/Agripeller.png";
 import Bpo from "../assets/BPO.png";
-import Crm4Smes from "../assets/Crm4Smes.png";
-import Interra from "../assets/Interra.png";
-import Invas from "../assets/Invas.png";
-import MedAdher from "../assets/MedAdher.png";
+import Crm4Smes from "../assets/CRM4SMEs.png";
+import Interra from "../assets/INTERRA.png";
+import Invas from "../assets/INVAS.png";
+import MedAdher from "../assets/MEDADHER.png";
 import Nigsims from "../assets/Nigsims.png";
 
 // pdf
-import Resume from "../../public/Emmanuel Kachikwu's Resume.pdf"
+import Resume from "../assets/Emmanuel Kachikwu's Resume.pdf";
 
 // logos
 import ReactJs from "../assets/react.svg";
@@ -110,7 +110,7 @@ const Home = () => {
               UX Engineer specializing UIUX Design and Frontend Development.
             </h3>
           </div>
-          <a href={Resume} target="_blank" rel="noopener noreferrer" > 
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
             <Button
               label="Get Resume"
               icon="material-symbols-light:download-sharp"
