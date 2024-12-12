@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import Button from "./Button";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
