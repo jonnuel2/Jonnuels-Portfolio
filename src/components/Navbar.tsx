@@ -47,7 +47,10 @@ const Navbar = () => {
 
               <ul className="flex flex-col gap-4 text-white text-lg">
                 <li className="flex items-center justify-between px-4">
-                  <a href="#about" className="flex items-center justify-between w-full">
+                  <a
+                    href="#about"
+                    className="flex items-center justify-between w-full"
+                  >
                     About Me
                     <Icon
                       icon="mdi-light:chevron-right"
@@ -59,7 +62,10 @@ const Navbar = () => {
                 <div className="w-full h-[1px] bg-border"></div>
 
                 <li className="flex items-center justify-between px-4">
-                  <a href="#skills" className="flex items-center justify-between w-full">
+                  <a
+                    href="#skills"
+                    className="flex items-center justify-between w-full"
+                  >
                     Skills
                     <Icon
                       icon="mdi-light:chevron-right"
@@ -71,7 +77,10 @@ const Navbar = () => {
                 <div className="w-full h-[1px] bg-border"></div>
 
                 <li className="flex items-center justify-between px-4">
-                  <a href="#live-projects" className="flex items-center justify-between w-full">
+                  <a
+                    href="#live-projects"
+                    className="flex items-center justify-between w-full"
+                  >
                     Live Projects
                     <Icon
                       icon="mdi-light:chevron-right"
@@ -85,7 +94,7 @@ const Navbar = () => {
               <button
                 onClick={() =>
                   (window.location.href =
-                    "mailto:nonsokach@gmail.com?bject=Hiring%20inquiry&bodyI%20would%20like%20to%20hire%20you%20for%20a%20project.")
+                    "mailto:nonsokach@gmail.com?subject=Hiring%20inquiry&body=I%20would%20like%20to%20hire%20you%20for%20a%20project.")
                 }
                 className="flex items-center gap-2 pl-8 pr-6 py-2 border rounded-[24px] text-white border-border hover:bg-primary text-sm transition-all duration-300 ease-in-out hover:scale-[90%]"
               >
