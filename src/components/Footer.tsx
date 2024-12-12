@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/logo.png";
 
 const Footer = () => {
   return <div className="bg-primary h-20 flex items-center border-t-[1px] border-border">
