@@ -1,7 +1,5 @@
-import React from "react";
 import Button from "../components/Button";
 import ProfileImg from "../assets/Profile-img.jpg";
-import ProfileImg2 from "../assets/Profile-img2.jpg";
 import Agripeller from "../assets/Agripeller.png";
 import Bpo from "../assets/Bpo.png";
 import Crm4Smes from "../assets/Crm4Smes.png";
