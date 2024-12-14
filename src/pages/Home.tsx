@@ -207,7 +207,7 @@ const Home = () => {
             </div>
           </div>
           {/* live projects body */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
             {projects.map((project, index) => (
               <a
                 href={project.href}
@@ -224,8 +224,8 @@ const Home = () => {
                 </div>
                 {/* title */}
                 <div className="p-4">
-                  <div className="text-lg">{project.title}</div>
-                  <div className="text-sm font-poppins text-text-grey">
+                  <div className="text-sm md:text-lg">{project.title}</div>
+                  <div className="text-xs md:text-sm font-poppins text-text-grey">
                     {project.desc}
                   </div>
                 </div>
